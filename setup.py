@@ -14,9 +14,9 @@ setup(name='collective.collage.blogging',
         "Programming Language :: Python",
         ],
       keywords='',
-      author='',
-      author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      author='Davi Lima',
+      author_email='davilima6@gmail.com',
+      url='http://plone.org/products/collective.collage.blogging',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['collective', 'collective.collage'],
@@ -24,7 +24,8 @@ setup(name='collective.collage.blogging',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          # -*- Extra requirements: -*-
+          'z3c.autoinclude',  # Required for Plone 3.2 compatibility
+          'Products.Collage',
       ],
       entry_points="""
       # -*- Entry points: -*-

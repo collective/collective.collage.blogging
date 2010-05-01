@@ -1,0 +1,5 @@
+<layers>
+    <layer name="collective.collage.blogging"
+           interface="collective.collage.blogging.interfaces.ICollageBloggingLayer" />
+</layers>
+

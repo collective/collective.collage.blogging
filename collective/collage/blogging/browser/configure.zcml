@@ -1,0 +1,25 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.collage.blogging">
+
+  <browser:page
+      name="blog"
+      for="collective.blogging.interfaces.IBlogMarker"
+      permission="zope.Public"
+      template="blogging.pt"
+      class=".views.BloggingView"
+      layer="Products.Collage.interfaces.ICollageBrowserLayer"
+      />
+
+  <browser:page
+      name="collage_blogging_util"
+      for="Products.Collage.interfaces.ICollage"
+      permission="zope2.View"
+      allowed_interface="collective.collage.blogging.interfaces.ICollageBloggingUtil"
+      layer="collective.collage.blogging.interfaces.ICollageBloggingLayer"
+      class=".utils.CollageBloggingUtil"
+      />
+
+</configure>
+
