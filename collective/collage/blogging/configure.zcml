@@ -13,8 +13,8 @@
 
     <genericsetup:registerProfile
         name="default"
-        title="collective.collage.blogging"
-        description="Collage view for collective.blogging."
+        title="Collage: blogging"
+        description="A collective.blogging integration for Products.Collage."
         directory="profiles/default"
         provides="Products.GenericSetup.interfaces.EXTENSION" />
 
