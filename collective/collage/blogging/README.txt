@@ -38,9 +38,9 @@ collective.collage.blogging is licensed under the GPL. See LICENSE.txt for detai
 
 Author: `Davi Lima`__
 
-.. _davilima: mailto:mborch@gmail.com
+.. _davi-lima: mailto:davilima6@gmail.com
 
-__ davilima_
+__ davi-lima_
 
 Contributors:
 
