@@ -5,12 +5,12 @@
     i18n_domain="collective.collage.blogging">
 
     <five:registerPackage package="." initialize=".initialize" />
-
-    <!-- Include configuration for dependencies listed in setup.py -->
-
-    <include package="collective.blogging" />
+    
+    <include package="z3c.autoinclude" file="meta.zcml" /> <!-- Required for Plone 3.2 compatibility -->
+    <includeDependencies package="." />
+    
     <include package=".browser" />
-
+    
     <genericsetup:registerProfile
         name="default"
         title="Collage: blogging"
