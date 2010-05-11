@@ -6,6 +6,7 @@
                 templateId template/getId;
                 batch view/batch;
                 hiddableStyle python:batch and 'visibility:hidden;;height:1px;;padding:0;;margin:0;;' or None;
+                use_view_action nocall:context/portal_properties/site_properties/typesUseViewActionInListings|python:();
                 url_quote nocall:modules/Products.PythonScripts.standard/url_quote;
                 portal_discussion nocall:context/portal_discussion;
                 isDiscussionAllowedFor nocall:portal_discussion/isDiscussionAllowedFor;
