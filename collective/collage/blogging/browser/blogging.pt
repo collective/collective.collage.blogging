@@ -28,9 +28,9 @@
     
     <metal:blogDesc use-macro="context/blog_macros/macros/blog_description"/>
     
-    <metal:toolbar use-macro="context/blog_macros/macros/toolbar"/>
-    
     <metal:postCount use-macro="context/blog_macros/macros/post_count"/>
+    
+    <metal:toolbar use-macro="context/blog_macros/macros/toolbar"/>
     
     <div class="visualClear" id="clear-before-entries-listing"><!-- --></div>
     
