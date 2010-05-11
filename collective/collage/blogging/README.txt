@@ -6,7 +6,7 @@ Add-on that allows displaying Blogging based blogs inside a Collage.
 Installing
 ============
 
-This package requires Plone 3.x or later (tested on 3.3.x and 4.0a2).
+This package requires Plone 3.x or later (tested on 3.3.x).
 
 Installing without buildout
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -19,11 +19,11 @@ Installing with buildout
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you are using `buildout`_ to manage your instance installing
-collective.blogging is even simpler. You can install
-collective.blogging by adding it to the eggs line for your instance::
+collective.collage.blogging is even simpler. You can install
+collective.collage.blogging by adding it to the eggs line for your instance::
 
     [instance]
-    eggs = collective.blogging
+    eggs = collective.collage.blogging
 
 After updating the configuration you need to run the ''bin/buildout'', which
 will take care of updating your system.
@@ -36,7 +36,7 @@ Copyright and Credits
 
 collective.collage.blogging is licensed under the GPL. See LICENSE.txt for details.
 
-Author: `Davi Lima`__
+Author: `Davi Lima (davi-lima, davilima6)`__
 
 .. _davi-lima: mailto:davilima6@gmail.com
 
@@ -44,7 +44,7 @@ __ davi-lima_
 
 Contributors:
 
-- `Lukas Zdych`__
+- `Lukas Zdych (lzdych)`__
 
 .. _lzdych: mailto:lukas.zdych@gmail.com
 
